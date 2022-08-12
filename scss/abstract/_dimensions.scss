@@ -1,0 +1,11 @@
+/* 
+*DIMENSIONS
+*/
+@mixin  dimensions ($width,$height,$min-width,$min-height,$max-width,$max-height) {
+    width: $width;
+    height: $height;
+    min-width: $min-width;
+    min-height: $min-height;
+    max-width: $max-width;
+    max-height: $height;
+}

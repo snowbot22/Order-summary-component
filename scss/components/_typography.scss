@@ -1,0 +1,14 @@
+//USE VAR AND FUNCT
+@use "../abstract/variables" as var;
+@use "../abstract/functions" as funct;
+
+
+/*
+*MIXIN TYPO
+*/
+@mixin typo (  $size,$color,$weight,$line  ) {
+    font-size: $size;
+    color: $color;
+    font-weight: $weight;
+    line-height: $line;
+}

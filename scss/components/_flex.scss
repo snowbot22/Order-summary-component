@@ -1,0 +1,21 @@
+/*
+*FLEX ROW NO WRAP
+*/
+@mixin flex-row-nowrap ($justify, $align, $gap) {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: $justify;
+    align-items: $align;
+    gap: $gap;
+}
+
+/*
+*FLEX COLUMN NO WRAP
+*/
+@mixin flex-column-nowrap ($justify, $align, $gap) {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: $justify;
+    align-items: $align;
+    gap: $gap;
+}

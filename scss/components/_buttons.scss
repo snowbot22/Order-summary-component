@@ -1,0 +1,17 @@
+//USE VAR AND FUNCT
+@use "../abstract/functions" as funct;
+@use "../abstract/variables" as var;
+
+/*
+*MAIN-BUTTON
+*/
+@mixin  main-btn {
+    border: none;
+    background-color: funct.getColors(Bright-blue);
+    color: funct.getColors(Very-pale-blue);
+    font-size: 1.6rem;
+    font-weight: 700;
+    width: 100%;
+    height: 50px;
+    border-radius: 1rem;
+}
